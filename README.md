@@ -67,33 +67,5 @@ lib/
 
 
 
-## to run app
-
-```dart
-# dart run lib/main.dart
-
----
-
-## 🚀 Example Usage
-
-```dart
-void main() {
-  final repo = InMemoryOrderRepository();
-  final manager = OrderManager(repo);
-
-  // Add some orders
-  manager.addOrder("Mohamed", const Shai(), "Extra mint, ya rais");
-  manager.addOrder("eslam", const TurkishCoffee(), "high sugar");
-  manager.addOrder("Hassan", const HibiscusTea(), "Less sugar");
-
-  // Complete one order
-  final pending = manager.getPendingOrders();
-  manager.completeOrder(pending.first);
-
-  // Generate report
-  final report = ReportGenerator(manager.allOrders);
-  log("Top Selling Drinks: ${report.getTopSellingDrinks()}");
-  log("Total Orders Served: ${report.getTotalOrdersServed()}");
-}
 
 
