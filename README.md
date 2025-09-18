@@ -84,6 +84,6 @@ void main() {
 
   // Generate report
   final report = ReportGenerator(manager.allOrders);
-  print("Top Selling Drinks: ${report.getTopSellingDrinks()}");
-  print("Total Orders Served: ${report.getTotalOrdersServed()}");
+  log("Top Selling Drinks: ${report.getTopSellingDrinks()}");
+  log("Total Orders Served: ${report.getTotalOrdersServed()}");
 }
