@@ -57,6 +57,14 @@ lib/
 │ ├── order_manager.dart
 │ └── report_generator.dart
 
+## 📌 ScreenShots
+
+<img width="1344" height="2992" alt="Screenshot_1758220702" src="https://github.com/user-attachments/assets/8314daee-eef7-4787-a615-f14a18926863" />
+<img width="1344" height="2992" alt="Screenshot_1758220701" src="https://github.com/user-attachments/assets/22d95340-df67-41a0-91ee-f2c330401a31" />
+<img width="1344" height="2992" alt="Screenshot_1758220699" src="https://github.com/user-attachments/assets/db85cdc3-5a9a-4677-82b7-7ab2a1f7cf82" />
+<img width="1344" height="2992" alt="Screenshot_1758220696" src="https://github.com/user-attachments/assets/9b9f7fe5-cd81-44ab-ace4-a97bed035986" />
+
+
 
 
 ## to run app
@@ -87,3 +95,5 @@ void main() {
   log("Top Selling Drinks: ${report.getTopSellingDrinks()}");
   log("Total Orders Served: ${report.getTotalOrdersServed()}");
 }
+
+
